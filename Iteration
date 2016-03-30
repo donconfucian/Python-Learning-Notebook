@@ -4,3 +4,9 @@ d = {'a': 1, 'b': 2, 'c': 3}
 
 for k, v in d.items():
     print (k+':'+v)
+
+#To show index of key
+
+for i, value in enumerate(['A', 'B', 'C']):
+    print(i, value)
+    
